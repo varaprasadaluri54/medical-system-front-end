@@ -4,6 +4,7 @@ import "./Signup.css";
 export default function Signup() {
   return (
     <div id="signup">
+      <h1 className="text-center">Signup</h1>
       <Form className="container  ">
         <Form.Group className="mb-3" controlId="validationCustom01">
           <Form.Label>First Name</Form.Label>
@@ -32,7 +33,7 @@ export default function Signup() {
           <Form.Control required type="date" name="dob" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Label>Gender </Form.Label>
+          <Form.Label>Gender </Form.Label>{" "}
           <Form.Check
             required
             inline

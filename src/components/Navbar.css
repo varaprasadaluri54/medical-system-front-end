@@ -1,9 +1,9 @@
 .color-nav {
   background: rgba(114, 127, 243, 0.9);
 }
-/* #nav {
+#nav {
   align-items: flex-end;
-} */
+}
 #navbar-brand {
   font-weight: bold;
   color: black;

@@ -4,6 +4,7 @@ import "./Login.css";
 export default function Login() {
   return (
     <div id="login">
+      <h1 className="text-center">Welcome</h1>
       <Form className="container ">
         <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
           <Form.Label>Username</Form.Label>
