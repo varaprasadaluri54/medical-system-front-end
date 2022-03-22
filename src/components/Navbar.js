@@ -7,7 +7,7 @@ export default function NavBar() {
       <Container>
         <Navbar.Brand>
           <Link to="/" id="navbar-brand">
-            Medical
+            Lifeline Health Care System
           </Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
